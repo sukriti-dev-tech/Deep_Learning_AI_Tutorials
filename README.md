@@ -1,6 +1,8 @@
 # Deep_Learning_AI_Tutorials
 Py notebooks for the tutorials with up to date code 
+
 Link to the tutorial - https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/
+
 Link to the Lang-x documentation - https://python.langchain.com/api_reference/index.html
 
 Notebooks contain the code files to follow along with the tutorial.
