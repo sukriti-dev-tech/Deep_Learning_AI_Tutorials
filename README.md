@@ -4,7 +4,7 @@ Link to the tutorial - https://www.deeplearning.ai/short-courses/ai-agents-in-la
 Link to the Lang-x documentation - https://python.langchain.com/api_reference/index.html
 
 Notebooks contain the code files to follow along with the tutorial.
-Most of the lessons have 2 ways of solving a problem, I have separated out the ways into different notebooks so that they can be run/modified individually.
+Some of the lessons have 2 ways of solving a problem, for those I have separated out the ways into different notebooks so that they can be run/modified individually.
 Updates done to the tutorial code:
   Code updated as per latest LangGraph API version (including for Tavily Search API integration)
   Code updated as per latest OpenAI API version
