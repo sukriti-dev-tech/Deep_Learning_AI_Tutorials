@@ -1,2 +1,41 @@
 # Deep_Learning_AI_Tutorials
 Py notebooks for the tutorials with up to date code 
+Link to the tutorial - https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/
+Link to the Lang-x documentation - https://python.langchain.com/api_reference/index.html
+
+Notebooks contain the code files to follow along with the tutorial.
+Most of the lessons have 2 ways of solving a problem, I have separated out the ways into different notebooks so that they can be run/modified individually.
+Updates done to the tutorial code:
+  Code updated as per latest LangGraph API version (including for Tavily Search API integration)
+  Code updated as per latest OpenAI API version
+  Commented out LangGraph graph display as it is difficult to install LangGraph without installing multiple other dependencies
+  Used environment variables to set API KEYS
+
+Python v3.12
+Setup environment variables on macOS:
+1. Find out which shell your OS is using: echo $SHELL
+   Below commands use zsh but replace zsh with the name of your shell in case it is different
+2. Set the environment variables OPENAI_API_KEY, LANGCHAIN_API_KEY, TAVILY_API_KEY, USER_AGENT using this template : echo "export <keyname>='<keyvalue>'" >> ~/.zshrc
+3. Reload the script : source ~/.zshrc
+4. Echo $MY_VARIABLE to verify that variable is set
+5. Install python dependencies (recommended one by one so that errors can be monitored): pip install <lib name>
+langgraph
+langgraph-prebuilt
+langgraph-sdk
+langgraph-checkpoint-sqlite
+langsmith
+langchain-community
+langchain-core
+langchain-openai
+notebook
+tavily-python
+wikipedia
+trustcall
+
+Reach out in case any of the installs are failing or if the code needs further updates.
+
+
+
+
+
+  
