@@ -4,12 +4,14 @@ Link to the tutorial - https://www.deeplearning.ai/short-courses/ai-agents-in-la
 Link to the Lang-x documentation - https://python.langchain.com/api_reference/index.html
 
 Notebooks contain the code files to follow along with the tutorial.
+
 Some of the lessons have 2 ways of solving a problem, for those I have separated out the ways into different notebooks so that they can be run/modified individually.
+
 Updates done to the tutorial code:
-  Code updated as per latest LangGraph API version (including for Tavily Search API integration)
-  Code updated as per latest OpenAI API version
-  Commented out LangGraph graph display as it is difficult to install LangGraph without installing multiple other dependencies
-  Used environment variables to set API KEYS
+  1. Code updated as per latest LangGraph API version (including for Tavily Search API integration)
+  2. Code updated as per latest OpenAI API version
+  3. Commented out LangGraph graph display as it is difficult to install LangGraph without installing multiple other dependencies
+  4. Used environment variables to set API KEYS
 
 Python v3.12
 Setup the project in Jupyter:
