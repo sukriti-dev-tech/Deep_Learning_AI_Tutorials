@@ -12,13 +12,21 @@ Updates done to the tutorial code:
   Used environment variables to set API KEYS
 
 Python v3.12
+Setup the project in Jupyter:
+1. Launch jupyter lab, create a new folder
+2. In the terminal: cd <new folder name>
+  python -m venv <give a name>
+
 Setup environment variables on macOS:
 1. Find out which shell your OS is using: echo $SHELL
    Below commands use zsh but replace zsh with the name of your shell in case it is different
 2. Set the environment variables OPENAI_API_KEY, LANGCHAIN_API_KEY, TAVILY_API_KEY, USER_AGENT using this template : echo "export <keyname>='<keyvalue>'" >> ~/.zshrc
 3. Reload the script : source ~/.zshrc
 4. Echo $MY_VARIABLE to verify that variable is set
-5. Install python dependencies (recommended one by one so that errors can be monitored): pip install <lib name>
+
+Install below python dependencies (recommended one by one so that errors can be monitored): 
+pip install <lib name>
+
 langgraph
 langgraph-prebuilt
 langgraph-sdk
