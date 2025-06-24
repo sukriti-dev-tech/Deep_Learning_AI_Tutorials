@@ -18,32 +18,45 @@ Updates done to the tutorial code:
 Python v3.12
 Setup the project in Jupyter:
 1. Launch jupyter lab, create a new folder
-2. In the terminal: cd <new folder name>
-  python -m venv <give a name>
+2. In the terminal: cd &lt;new folder name&gt;
+  python -m venv &lt;give a name&gt;
 
 Setup environment variables on macOS:
-1. Find out which shell your OS is using: echo $SHELL
-   Below commands use zsh but replace zsh with the name of your shell in case it is different
-2. Set the environment variables OPENAI_API_KEY, LANGCHAIN_API_KEY, TAVILY_API_KEY, USER_AGENT using this template : echo "export <keyname>='<keyvalue>'" >> ~/.zshrc
-3. Reload the script : source ~/.zshrc
-4. Echo $MY_VARIABLE to verify that variable is set
+1. Find out which shell your OS is using: echo $SHELL . 
+   <br>Below commands use zsh but replace zsh with the name of your shell in case it is different
+2. Set the environment variables OPENAI_API_KEY, LANGCHAIN_API_KEY, TAVILY_API_KEY, USER_AGENT
+   using this template : echo "export &lt;keyname&gt;='&lt;keyvalue&gt;'" >> ~/.zshrc
+4. Reload the script : source ~/.zshrc
+5. Echo $MY_VARIABLE to verify that variable is set
 
 Install below python dependencies (recommended one by one so that errors can be monitored): 
-pip install <lib name>
-
+<br>
+pip install &lt;lib name&gt;
+<br>
 langgraph
+<br>
 langgraph-prebuilt
+<br>
 langgraph-sdk
+<br>
 langgraph-checkpoint-sqlite
+<br>
 langsmith
+<br>
 langchain-community
+<br>
 langchain-core
+<br>
 langchain-openai
+<br>
 notebook
+<br>
 tavily-python
+<br>
 wikipedia
+<br>
 trustcall
-
+<br>
 Reach out in case any of the installs are failing or if the code needs further updates.
 
 
